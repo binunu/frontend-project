@@ -1,0 +1,116 @@
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section1{
+    height: 1060px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 190px;
+    box-sizing: border-box;
+}
+
+.firework{
+    display: flex;
+    position: absolute;
+    width: 1200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    margin: auto;
+    /* background-color: pink; */
+}
+.firework .ff{
+    position: absolute;
+}
+.firework .f1{
+    left: 20%;
+    right: 70%;
+    top: 10%;
+}
+.firework .f2{
+    left: 10%;
+    right: 75%;
+    top: 30%;
+}
+.firework .f3{
+    left: 70%;
+    right: 20%;
+    top: 15%;
+}
+.firework .f4{
+    left: 80%;
+    right: 15%;
+    top: 25%;
+}
+
+.logobox{
+    position:relative;
+    width: 1200px;
+}
+.logo{ 
+    width: 60%;
+    position:absolute;
+    z-index:8;
+    top:0;
+    right:0;
+    left: 0;
+    bottom:0;
+    margin: 0 auto
+}
+.back{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: url('../../public/img/backimg.jpg') no-repeat center/cover;
+    overflow: hidden;
+
+}
+/* 옐ㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹ */
+.back .b{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.back .sun{
+    background-image: url('../../public/img/sun.png');
+ 
+}
+.back .city{
+    background-image: url('../../public/img/city.png');
+}
+
+.green{
+    background-image: url('../../public/img/s1_bg03.png');
+}
+
+.p {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.p .pp{
+    position : absolute;
+}
+.p .p1{
+   bottom: 0;
+   left: 10%;
+}
+.p .p2{
+    left: 77%;
+    bottom: 0;
+}
