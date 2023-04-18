@@ -5,7 +5,11 @@ import './home.css'
 const Home2 = () => {
   return (
     <div className='section2'>
-      <div className='wave' />
+
+      <div className='w-wave-box'>
+        <div className='w-wave' />
+      </div>
+
 
       <div className='home2-text-box'>
         <h2 className='htb htb1'>이달의 행사</h2>

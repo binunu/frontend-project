@@ -9,7 +9,9 @@ img {
     height: auto;
 }
 body{
-    overflow-x: hidden;
+    /* width: 100vw; */
+    overflow-x: hidden; 
+   
 }
 .section1{
     height: 1060px;
@@ -18,6 +20,8 @@ body{
     justify-content: center;
     padding-top: 190px;
     box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .firework{
@@ -78,9 +82,9 @@ body{
     bottom: 0;
     background: url('../../public/img/backimg.jpg') no-repeat center/cover;
     overflow: hidden;
+    width: 100%;
 
 }
-/* 옐ㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹ */
 .back .b{
     background-repeat: no-repeat;
     background-position: center;
@@ -130,16 +134,32 @@ body{
  position:relative;
  height: 1060px;
  background-color: gray;
+ width: 100%;
 }
-.wave{
+
+.w-wave{ 
     background-image: url('../../public/img/w_wave.png');
-    background-size: 50%;
-    background-repeat: no-repeat;
-    top : -8%;
+    background-size: 50% var(--wave);
+    background-repeat: repeat-x;
+    transform-origin: center bottom;
     position:absolute; 
     z-index: 11;
-    height: 100%;
-    width: 200%;
+    top: -150px;
+    height: 199px;
+    width:200%;
+    animation: wave 20s infinite linear;
+}
+
+@keyframes wave {
+    0%{
+        transform: translate3D(0,0,0) scaleY(1);
+    }
+    50% {
+        transform: translate3D(-25%,0,0) scaleY(0.8);
+    }
+    100% {
+        transform: translate3D(-50%,0,0) scaleY(1);
+    }
 }
 
 .home2-text-box{ 
@@ -147,8 +167,8 @@ body{
     text-align: center;
     background-color: white;
 }
-.htb{
-}
+/* .htb{
+} */
 .htb1{
     padding-top: 10%;
     font-size: 40px;
@@ -158,6 +178,6 @@ body{
 .htb2{
     font-size:20px;
 }
-.test{
+/* .test{
     
-}
+} */

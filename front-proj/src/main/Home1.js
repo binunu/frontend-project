@@ -41,7 +41,7 @@ const Home1 = () => {
       </div>
 
 
-      <div className='back' style={{width:'100vw'}}>
+      <div className='back'>
         <div className='b sun'></div>
         <div className='b city'></div>
         <div className='b green'></div>

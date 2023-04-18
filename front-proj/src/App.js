@@ -6,6 +6,8 @@ import Main from './main/Main';
 import Schedule from './sub/Schedule';
 import Community from './sub/Community';
 import Galary from './sub/Galary';
+import Footer from './footer/Footer';
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
       <Route exact path='/galary' element={<Galary/>}/>
       <Route exact path='/community' element={<Community/>}/>
      </Routes>
+     <Footer/>
      
     </div>
   );
