@@ -1,10 +1,10 @@
 import React from 'react'
-import './section.css'
+import './home.css'
 
 
 
 
-const Section1 = () => {
+const Home1 = () => {
   return (
     //메인을 블럭처리 > section1~4를 다 모은 느낌 ?
     //하나만 만들거라 없어도 될 듯
@@ -12,15 +12,21 @@ const Section1 = () => {
       {/* <div className='position-container'> */}
       {/* </div> */}
 
+      <div className='logobox'>
+        <h1>
+          <img className='logo' src='img/mainlogo.png' alt='logo' />
+        </h1>
+      </div>
+
       <div className='firework'>
         <div className='f1 ff'>
           <img src='img/firework01.png' alt='fire1' />
         </div>
         <div className='f2 ff'>
-          <img src='img/firework02.png' alt='fire2'/>
+          <img src='img/firework02.png' alt='fire2' />
         </div>
         <div className='f3 ff'>
-          <img src='img/firework03.png' alt='fire3'/>
+          <img src='img/firework03.png' alt='fire3' />
         </div>
         <div className='f4 ff'>
           <img src='img/firework04.png' alt='fire4' />
@@ -35,19 +41,17 @@ const Section1 = () => {
       </div>
 
 
-      <div className='back'>
+      <div className='back' style={{width:'100vw'}}>
         <div className='b sun'></div>
         <div className='b city'></div>
         <div className='b green'></div>
       </div>
 
-      <div className='logobox'>
-        <img className='logo' src='img/mainlogo.png' alt='logo' />
-      </div>
+    
 
 
 
     </div>
   )
 }
-export default Section1;
+export default Home1;

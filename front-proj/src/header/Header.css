@@ -1,31 +1,36 @@
 #header{
     transition: background .4s;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(74, 42, 105);
     height: 100px;
     z-index: 1000;
-    
 }
 .category{
+    margin: auto;
     display: flex;
+    position: relative;
     list-style: none;
     height: 100%;   
     width: 100%;
     justify-content: space-evenly;   
-    margin: auto 30px;
+    /* padding: auto px; */
 }
 .mini-logo{
    width: 160px;
 }
 .category li {
-    margin : auto 0;
+    margin: auto -15% auto -15%;
     font-size: 20px;
     font-weight: bold;
 }
 .category li a{
     text-decoration: none;
     color: white;
+}
+.category li a :first-child{
+    position: relative;
+    left: -100%;
 }
 
 
