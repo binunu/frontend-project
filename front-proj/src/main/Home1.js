@@ -20,7 +20,7 @@ const Home1 = () => {
 
       <div className='firework'>
         <div className='f1 ff'>
-          <img src='img/firework01.png' alt='fire1' />
+          <img src='img/firework01.png' alt='fire1'/>
         </div>
         <div className='f2 ff'>
           <img src='img/firework02.png' alt='fire2' />
