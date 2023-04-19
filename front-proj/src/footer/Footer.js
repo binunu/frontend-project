@@ -7,8 +7,8 @@ const Footer = () => {
                 <div className='g-wave'></div>
             </div>
             <div className='wrap' max='1400'>
-                <div>
-                    {/* <img src='img/mainlogo.png' alt='작은로고'/> */}
+                <div className='f-logo'>
+                    <img src='img/mainlogo.png' alt='작은로고'/>
                 </div>
                 <div className='txt-footer'>
                     <div className='add'>

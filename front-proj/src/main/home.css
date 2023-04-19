@@ -9,9 +9,7 @@ img {
     height: auto;
 }
 body{
-    /* width: 100vw; */
     overflow-x: hidden; 
-   
 }
 .section1{
     height: 1060px;
@@ -133,7 +131,7 @@ body{
 .section2{
  position:relative;
  height: 1060px;
- background-color: gray;
+ /* background-color: gray; */
  width: 100%;
 }
 
@@ -170,7 +168,7 @@ body{
 /* .htb{
 } */
 .htb1{
-    padding-top: 10%;
+    padding-top: 7%;
     font-size: 40px;
 
 
