@@ -8,6 +8,22 @@
     position:relative;
     height: 1670px;
 }
+.qat{
+    position: absolute;
+}
+.qa-textbox{
+    color:white;
+    text-align: center;
+    display: flex;
+    
+}
+
+.qa-text-1{
+    font-size: 26px;
+}
+.qa-text-2{
+    font-size: 50px; 
+}
 
 
 /* Galary */
@@ -31,3 +47,5 @@
     position:relative;
     height: 1670px;
 }
+
+/* Community */

@@ -1,8 +1,16 @@
-#header{
+.original_header{
     transition: background .4s;
     position: fixed;
     width: 100vw;
-    background-color: rgb(74, 42, 105);
+    /* background-color: rgb(74, 42, 105); */
+    height: 100px;
+    z-index: 1000;
+}
+.change_header{
+    transition: background .4s;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5);
     height: 100px;
     z-index: 1000;
 }
