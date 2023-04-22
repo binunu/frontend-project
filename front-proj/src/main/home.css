@@ -140,7 +140,7 @@ body{
     background-size: 50% var(--wave);
     background-repeat: repeat-x;
     transform-origin: center bottom;
-    position:absolute; 
+    position:relative; 
     z-index: 11;
     top: -150px;
     height: 199px;

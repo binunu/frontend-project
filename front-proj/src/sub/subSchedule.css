@@ -1,0 +1,66 @@
+.sd-body *{
+    padding: 0;
+    margin : 0;
+}
+.sd-sub-title{
+    width: 600px;
+    height: 65px;
+    position: relative; 
+    margin : 0 auto;
+    margin-top: -5%;
+}
+.season-menu{
+    border: #6c508b solid 2px;
+    border-radius: 50px;
+    width: 100%;
+    display:flex;
+    height: 65px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 22px;
+    box-sizing: border-box;
+    
+    
+}
+.season-menu a{
+    text-decoration: none;
+    font-weight: bold; 
+} 
+.season-menu a:active{
+    color: #6c508b;
+}
+.white{
+    color: white;
+}
+.sd-sub-title li{
+    height: 100%;
+    width:calc(100%/4);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.sd-point{ 
+    width: calc(100%/4);
+    height: 100%;
+    background-color: #6c508b; 
+    margin: 0;
+    z-index: -1;
+    border-radius: 500px;
+    border: #6c508b solid 1px; 
+}
+
+
+.supoint:hover{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: calc(100%/4);
+    height: 100%;
+    background-color: #6c508b; 
+    z-index: -1;
+    border-radius: 500px;
+    color:white
+}

@@ -1,18 +1,19 @@
-import React from "react";
+import React from 'react'
+import { Link } from "react-router-dom";
 
-const Galary = () => {
+
+const ScheduleFall = () => {
   return (
-    <div className="ga-wrap">
-      <div className="ga-sec-01">
+    <div className='sd-wrap'>
+      <div className='sd-sec-01'>
         <div className="submenu-textbox">
           <div className="submenu-t submenu-text-1">
-            <p>갤러리</p>
+            <p>행사일정</p>
           </div>
           <div className="submenu-t submenu-text-2">
-            <h2>2022</h2>
+            <h2>가을</h2>
           </div>
         </div>
-
         <div className="submenu-imgs">
           <div className="submenu-i submenu-img-01">
             <img src="./img/sv_img01.png" alt="기타치는이미지" />
@@ -29,16 +30,24 @@ const Galary = () => {
         </div>
       </div>
 
+      <div className='sd-body'>
+        <div className='w-wave' style={{ backgroundImage: "src=img/w_wave/png" }}></div>
+        {/* main */}
+        <div className='sd-sub-title'>
+          <ul className='season-menu'>
+            <li><Link to={"/scheduleSpring"}>봄</Link></li>
+            <li><Link to={"/scheduleSummer"}>여름</Link></li>
+            <li><Link to={"/scheduleFall"}>가을</Link></li>
+            <li><Link to={"/scheduleWinter"}>겨울</Link></li>
+            
+          </ul>
+        </div>
+        <div className='sd-container'>
 
-
-      <div className="ga-body">
-        <div
-          className="w-wave"
-          style={{ backgroundImage: "src=img/w_wave/png" }}
-        ></div>
+        </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Galary;
+export default ScheduleFall

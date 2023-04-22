@@ -32,20 +32,18 @@
     z-index: 25;
 }
 .f-logo{
-    position: absolute;
-    width: 12%;
+    width: 10%;
+    margin-left: 10%;
     
-    /* float: left; */
 }
 .txt-footer{
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 80px;
-    /* bottom: 24%; */
-    /* margin-top: 10px; */
-    color: white;
-    margin-left: 230px;
+    color: white; 
     font-size: 16px;
+    /* background-color: pink; */
+    margin-left: 50px;
 }
 .add{
     display: inline-block;

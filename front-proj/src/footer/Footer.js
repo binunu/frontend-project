@@ -2,6 +2,8 @@ import React from 'react'
 import './footer.css';
 const Footer = () => {
     return (
+        // <div style={{width:'100%', height:'700px'}}>
+        // <div style={{width:'100%'}}>
         <footer className='footer'>
             <div className='g-wave-box'>
                 <div className='g-wave'></div>
@@ -23,6 +25,8 @@ const Footer = () => {
 
             </div>
         </footer>
+        // </div>
+
     )
 }
 
