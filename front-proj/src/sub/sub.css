@@ -33,8 +33,6 @@
     border-bottom: 2px solid #555;
     padding: 0;
     margin-top: 10px;
-    /* width: 100%; */
-    /* list-style: none;  */
 }
 .qa-input-box li{
     display: flex;
@@ -68,9 +66,6 @@
     color: red;
 }
 .qa-input-box label{
-    /* font-size: 18px;
-    color: #555555;
-    width: 100px; */
 
     max-width: 250px;
     padding-left: 20px;
@@ -206,43 +201,3 @@
     font-size: 50px;
 }
 
-
-
-
-
-
-/* Galary */
-.ga-sec-01 {
-    position: relative;
-    height: 580px;
-    background-color: #ee8e22;
-    display: flex;
-    justify-content: center;
-}
-
-.ga-body {
-    position: relative;
-    height: 1670px;
-}
-
-
-
-/* Schedule */
-.sd-wrap {
-    position: relative;
-}
-
-.sd-sec-01 {
-    position: relative;
-    height: 580px;
-    background-color: #6c508b;
-    display: flex;
-    justify-content: center;
-}
-
-.sd-body {
-    position: relative;
-    height: 1670px;
-}
-
-/* Community */

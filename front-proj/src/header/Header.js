@@ -26,7 +26,7 @@ const Header = () => {
           <Link to={"/scheduleSpring"}>행사일정</Link>
         </li>
         <li>
-          <Link to={"/galary"}>갤러리</Link>
+          <Link to={"/galary2022"}>갤러리</Link>
         </li>
         <li>
           <Link to={"/QandA"}>커뮤니티</Link>

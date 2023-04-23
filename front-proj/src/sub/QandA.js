@@ -167,10 +167,8 @@ const QandA = () => {
 
             </div>
 
-            <div className="qa-sm-bt">
-              <div> 
+            <div className="qa-sm-bt"> 
               <input type="submit" value={'제출하기'} className="smbt"></input>
-              </div>
             </div>
           </form>
         </div>

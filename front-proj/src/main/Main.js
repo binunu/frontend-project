@@ -4,6 +4,7 @@ import Home2 from './Home2';
 
 
 const Main = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
     <Home1/>

@@ -5,6 +5,7 @@
     /* background-color: rgb(74, 42, 105); */
     height: 100px;
     z-index: 1000;
+
 }
 .change_header{
     transition: background .4s;

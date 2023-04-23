@@ -129,10 +129,10 @@ body{
 /* home 2 */
 
 .section2{
- position:relative;
- height: 1060px;
+ /* position:relative; */
+ height: 1500px;
  /* background-color: gray; */
- width: 100%;
+ /* width: 100%; */
 }
 
 .w-wave{ 
@@ -160,44 +160,28 @@ body{
     }
 }
 
+.main-container *{
+    padding:0;
+    margin: 0;
+    
+}
 .home2-text-box{ 
-    position: relative;
     text-align: center;
-    background-color: white;
+    /* background-color: pink; */
 }
 /* .htb{
 } */
 .htb1{
-    padding-top: 7%;
-    font-size: 40px;
-
-
+    font-size: 40px; 
 }
 .htb2{
     font-size:20px;
+    margin-top: 30px;
 }
 
-/* swiper */
-.swiper-box{
-    position:relative;
-    padding: 0;
-    margin: 0;
+.calendar{
+    background-color: pink;
+    width:70%;
+    height: 800px;
+    margin: 0 auto;
 }
-
-swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
-
-  swiper-slide img {
-    display: block;
-    width: 100%;
-  }
