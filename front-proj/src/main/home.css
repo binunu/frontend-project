@@ -3,6 +3,9 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+/* #main-inner-calendar {
+    width: 1000px;
+} */
 img {
     display: inline-block;
     max-width: 100%;
@@ -130,7 +133,7 @@ body{
 
 .section2{
  /* position:relative; */
- height: 1500px;
+ /* height: 2700px; */
  /* background-color: gray; */
  /* width: 100%; */
 }
@@ -160,17 +163,44 @@ body{
     }
 }
 
+.p-wave{
+    background-image: url('../../public/img/p_wave.png');
+    background-size: 50% var(--wave);
+    background-repeat: repeat-x;
+    transform-origin: center bottom;
+    position:relative; 
+    z-index: 11;
+    top: -150px;
+    height: 199px;
+    width:200%;
+    animation: wave 20s infinite linear;
+}
 .main-container *{
     padding:0;
-    margin: 0;
-    
+    margin: 0; 
+}
+.main-container{
+    width: 100%;
+    /* background-color: pink; */
+    height: 1000px;
+}
+.main-container-2{
+    background-color: #45286a;
+    /* margin-top: 200px; */
+    height: 1200px;
+    /* position: relative; */
+    /* z-index: -10; */
 }
 .home2-text-box{ 
     text-align: center;
+    margin-top: -5%;
     /* background-color: pink; */
 }
 /* .htb{
 } */
+.htbb{
+    color: white;
+}
 .htb1{
     font-size: 40px; 
 }
@@ -180,8 +210,99 @@ body{
 }
 
 .calendar{
-    background-color: pink;
-    width:70%;
-    height: 800px;
+    padding-top: 70px;
+    /* background-color: pink; */
+    width:90%;
+    height: 500px;
     margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+  
+}
+.react-calendar {
+    border-radius: 20px;
+    width: 800px!important; 
+}
+.fHXPJv, .bAKQbq{
+    width: 800px!important;
+}
+.react-calendar *{
+    margin: 0;
+}
+.react-calendar__tile--now {
+    background: #e4e4e4!important;
+    border-radius: 0 0 0 20px;
+}
+.swiper-container{
+    background-color: #45286a;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.swimg{
+    width: 500px;
+    margin: 0 auto;
+}
+.swiper-container img{
+    width:500px; 
+    height: 600px;
+}
+.react-calendar__tile--active {
+    background: #aac4ec!important;
+    color: white;
+}
+
+/* 이미지 */
+.mc1-img{
+    /* background-color: pink; */
+    width: 100%;
+    height: 1500px;
+    left: 0;
+    right: 0; 
+    margin: 0 auto;
+    /* z-index: -1; */
+    position: absolute;
+}
+.mc2-img{
+    background-color: pink;
+    width: 100%;
+    height: 1200px;
+    left: 0;
+    right: 0;
+     
+    margin: 0 auto;
+    z-index: -2;
+    position: absolute;
+}
+.mc1i{
+    position: absolute;
+} 
+.mc1i-01{
+    left: 0;
+    top:25%; 
+    z-index: -20;
+}
+.mc1i-02{
+    right: 0;
+    top:30%;
+    z-index: -20;
+    
+}
+.mc1i-03{
+    bottom: 30%;
+    left: 5%;
+    /* top:40%; */
+    z-index: 12;
+}
+.mc1i-04{
+    bottom: 0;
+    right: 0;
+    /* top:40%; */ 
+    z-index: 12;
+}
+.mc1i-05{
+    bottom: 0;
+    right: 0;
+    /* top:40%; */ 
+    z-index: 12;
 }

@@ -38,8 +38,13 @@
     color: white;
 }
 .category li a :first-child{
-    position: relative;
     left: -100%;
+}
+
+.category li a:hover{
+    background: linear-gradient(to right, #ff41e6, #9900f8,#15decd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 

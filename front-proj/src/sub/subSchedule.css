@@ -121,13 +121,15 @@
     background-size: cover;
 
 } */
-
+.sd-con-frame{
+    transition: all 10s;
+    border-radius:10px;
+}
 .sd-con-frame:hover{
     position: relative;
     width: 265px;
     height: 355px;
     margin: 0 auto; 
-    transition: 0.4s;
     
 }
 .sd-con-frame a{

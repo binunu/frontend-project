@@ -23,13 +23,14 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link to={"/scheduleSpring"}>행사일정</Link>
+          {/* <Link to={"/scheduleSpring"}>행사일정</Link> */}
+          <a href="/scheduleSpring">행사일정</a>
         </li>
         <li>
-          <Link to={"/galary2022"}>갤러리</Link>
+          <a href="/galary2022">갤러리</a>
         </li>
         <li>
-          <Link to={"/QandA"}>커뮤니티</Link>
+          <a href={"/QandA"}>커뮤니티</a>
         </li>
       </ul>
     </header>
